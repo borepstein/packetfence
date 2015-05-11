@@ -24,6 +24,20 @@ ALTER TABLE class
     ADD `external_command` varchar(255) DEFAULT NULL;
 
 --
+-- Alter locationlog
+--
+
+ALTER TABLE `locationlog`
+    ADD `connection_sub_type` varchar(50) NOT NULL default '' AFTER connection_type;
+
+--
+-- Alter locationlog_archive
+--
+
+ALTER TABLE `locationlog_archive`
+    ADD `connection_sub_type` varchar(50) NOT NULL default '' AFTER connection_type;
+
+--
 -- Insert new sms carrier
 --
 
