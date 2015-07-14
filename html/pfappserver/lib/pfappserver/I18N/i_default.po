@@ -909,6 +909,7 @@ msgid "Comma-separated list of the switch uplinks"
 msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/packetfence_pki.pm
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
 msgid "Common name Attribute"
 msgstr ""
 
@@ -1009,6 +1010,7 @@ msgid "Copy File"
 msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/packetfence_pki.pm
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
 msgid "Country for the certificate"
 msgstr ""
 
@@ -1282,6 +1284,7 @@ msgid "Defined Mandatory Fields will be used with the following Portal Profile b
 msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/packetfence_pki.pm
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
 msgid "Defines what attribute of the node to use as the common name during the certificate generation."
 msgstr ""
 
@@ -2365,6 +2368,10 @@ msgstr ""
 msgid "Local Database Passwords"
 msgstr ""
 
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
+msgid "Locality for the certificate"
+msgstr ""
+
 # html/pfappserver/root/config/wrix/view.tt
 # html/pfappserver/root/node/view.tt
 msgid "Location"
@@ -2554,6 +2561,7 @@ msgid "MAC Vendor ID"
 msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/packetfence_pki.pm
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
 msgid "MAC address"
 msgstr ""
 
@@ -3107,6 +3115,14 @@ msgstr ""
 msgid "Organisation for the certificate"
 msgstr ""
 
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
+msgid "Organization for the certificate"
+msgstr ""
+
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
+msgid "Organizational unit for the certificate"
+msgstr ""
+
 # html/pfappserver/root/admin/status.tt
 msgid "Overview"
 msgstr ""
@@ -3131,6 +3147,7 @@ msgid "PKI Provider"
 msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/packetfence_pki.pm
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
 msgid "PKI Provider Name"
 msgstr ""
 
@@ -3250,6 +3267,7 @@ msgid "Password for the mysql database used by PacketFence."
 msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/packetfence_pki.pm
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
 msgid "Password for the username filled in above"
 msgstr ""
 
@@ -3450,6 +3468,7 @@ msgid "Please specify the maximum DHCP lease time."
 msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/packetfence_pki.pm
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
 msgid "Please specify the name of the PKI provider"
 msgstr ""
 
@@ -4705,6 +4724,7 @@ msgid "Starting IP Address"
 msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/packetfence_pki.pm
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
 msgid "State for the certificate"
 msgstr ""
 
@@ -5037,7 +5057,12 @@ msgid "The terminal id group for mirapay"
 msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/packetfence_pki.pm
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
 msgid "The unique id of the PKI provider"
+msgstr ""
+
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
+msgid "The url used to connect to the SCEP PKI service"
 msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/User/Create/Single.pm
@@ -5471,6 +5496,10 @@ msgstr ""
 
 # html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/packetfence_pki.pm
 msgid "Username to connect to the PKI"
+msgstr ""
+
+# html/pfappserver/lib/pfappserver/Form/Config/PKI_Provider/scep.pm
+msgid "Username to connect to the SCEP PKI Service"
 msgstr ""
 
 # conf/documentation.conf (scan.user)
@@ -7069,6 +7098,10 @@ msgstr "pending"
 # pf::pki_provider (PKI Providers)
 msgid "pf::pki_provider::packetfence_pki"
 msgstr "PacketFence PKI"
+
+# pf::pki_provider (PKI Providers)
+msgid "pf::pki_provider::scep"
+msgstr "SCEP PKI Provider"
 
 # pf::filter (Portal Profile Filters)
 msgid "pf::profile::filter::connection_type"
